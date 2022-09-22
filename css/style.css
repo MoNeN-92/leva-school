@@ -9958,3 +9958,13 @@ h6,
 .testimonial-carousel .owl-nav .owl-prev:hover {
   background: #2878EB;
 }
+.backpage{
+  position: relative;
+  bottom: 220px;
+}
+.mybtnstyle {
+  width: 5%;
+  max-width: 100%;
+  margin-left: auto;
+  border-radius: 50%;
+}

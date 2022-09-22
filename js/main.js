@@ -36,7 +36,7 @@
     // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
         delay: 10,
-        time: 2000
+        time: 2000,
     });
 
 
@@ -135,3 +135,35 @@
     
 })(jQuery);
 
+let mod = document.querySelector('.backpage');
+let econom = document.querySelector('.econom');
+let close = document.querySelector('.mybtn')
+
+econom.addEventListener('click', function(){
+    mod.classList.add('d-block')
+});
+close.addEventListener('click', function(){
+    mod.classList.remove('d-block')
+});
+
+let modsup = document.querySelector('.backpagesup');
+let superr = document.querySelector('.super');
+let closesup = document.querySelector('.mybtnsup')
+
+superr.addEventListener('click', function(){
+    modsup.classList.add('d-block')
+});
+closesup.addEventListener('click', function(){
+    modsup.classList.remove('d-block')
+});
+
+let vip = document.querySelector('.vipbtn')
+let modvip = document.querySelector('.backpagevip')
+let closevip = document.querySelector('.mybtnvip')
+
+vip.addEventListener('click', function(){
+    modvip.classList.add('d-block')
+});
+closevip.addEventListener('click', function(){
+    modvip.classList.remove('d-block')
+});
